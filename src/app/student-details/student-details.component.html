@@ -1,0 +1,11 @@
+
+<label>Student Name : </label><label>{{name}}</label><br><br>
+<label>Email:</label>
+<input [(ngModel)]="email" type="email" [placeholder]="email">
+{{email}}<br><br>
+<label>Phone Number : </label><label>{{phone}}</label><br><br>
+<label>Roll Number : </label><label>{{roll}}</label><br><br>
+<label>Father's Name : </label><label [innerHtml]="fathername"></label><br><br>
+<label>Mother's Name : </label><label [innerHtml]="mothername"></label><br><br>
+<button name="Submit" value="Submit" [disabled]="submitvalue">Submit</button>
+<button name="Cancel" value="Cancel" [disabled]="Cancelvalue">Cancel</button>
